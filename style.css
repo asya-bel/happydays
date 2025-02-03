@@ -72,8 +72,8 @@ a {
 }
 
 .achievements__note {
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 25px;
   color: #fff;
   text-shadow: 1px 1px 2px pink;
   font-weight: 400;
@@ -82,7 +82,7 @@ a {
 
 .achievements__script {
   font-size: 20px;
-  line-height: 35px;
+  line-height: 25px;
   color: #fff;
   font-weight: 400;
   margin: 0 0 30px 0;
