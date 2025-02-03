@@ -93,8 +93,8 @@ a {
 
 .table__first {
   display: flex;
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 25px;
   font-weight: 400;
   list-style-type: none;
   text-align: center;
