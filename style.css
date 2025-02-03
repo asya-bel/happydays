@@ -16,20 +16,8 @@ body {
   padding: 0;
 }
 
-main {
-  flex-grow: 1;
-}
-
-img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-  object-fit: cover;
-}
-
-a {
-  color: #ffffff;
-  text-decoration: none;
+.none {
+  height: 700px;
 }
 
 .container {
@@ -100,7 +88,7 @@ a {
   text-align: center;
   gap: 10px;
   margin: 0;
-  padding: 0 70px;
+  padding: 0;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -115,6 +103,7 @@ a {
 .table__link {
   background: hsla(0, 0%, 100%, 0.746);
   border-radius: 12px;
+  text-decoration: none;
   padding: 15px;
   color: #d30000;
   font-weight: 400;
