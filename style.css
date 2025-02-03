@@ -3,16 +3,16 @@
 }
 
 body {
-  background-image: url("https://i.ibb.co/dJwnkGqK/image.jpg");
-  background-size: 1440px 1000px;
+  background-image: url("https://i.ibb.co/bMTQQkrr/image.jpg");
+  background-size: cover;
   backdrop-filter: blur(5px);
+  background-position: center;
+  background-repeat: no-repeat;
   color: #ffffff;
   display: flex;
   flex-direction: column;
   font-family: "Golos Text", "Arial", sans-serif;
   margin: 0; 
-  min-height: 100vh;
-  min-width: 1240px;
   padding: 0;
 }
 
@@ -51,7 +51,7 @@ a {
   display: flex;
   border-radius: 20px;
   justify-content: space-between;
-  background: hsla(317, 100%, 76%, 0.746);
+  background: hsla(0, 100%, 77%, 0.851);
   margin: 0;
   padding: 20px;
   flex-direction: column;
@@ -66,8 +66,8 @@ a {
   margin: 0 0 20px 0;
   font-family: "Roboto Slab", serif;
   src: url(../../fonts/Nickainley-Normal.otf);
-  text-shadow: 1px 1px 20px rgb(248, 248, 248);
-  color: #ff2eaf;
+  text-shadow: 2px 2px 20px rgb(248, 248, 248);
+  color: #d30000;
   font-style: italic;
 }
 
@@ -75,7 +75,7 @@ a {
   font-size: 25px;
   line-height: 35px;
   color: #fff;
-  text-shadow: 1px 1px 10px pink;
+  text-shadow: 1px 1px 2px pink;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -84,12 +84,11 @@ a {
   font-size: 20px;
   line-height: 35px;
   color: #fff;
-  text-shadow: 1px 1px 2px pink;
   font-weight: 400;
   margin: 0 0 30px 0;
   font-style: italic;
   text-shadow: 1px 1px 20px rgb(248, 248, 248);
-  color: #ff2eaf;
+  color: #d30000;
 }
 
 .table__first {
@@ -103,6 +102,7 @@ a {
   margin: 0;
   padding: 0 70px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .table__one {
@@ -116,8 +116,9 @@ a {
   background: hsla(0, 0%, 100%, 0.746);
   border-radius: 12px;
   padding: 15px;
-  color: #ff2eaf;
+  color: #d30000;
   font-weight: 400;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="red" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>') 8 8, auto;
 }
 
 .table__link:hover {
