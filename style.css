@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://i.ibb.co/dJwnkGqK/image.jpg");
+  background-size: 1440px 1000px;
+  backdrop-filter: blur(5px);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-family: "Golos Text", "Arial", sans-serif;
+  margin: 0; 
+  min-height: 100vh;
+  min-width: 1240px;
+  padding: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  padding: 50px;
+}
+
+.achievements {
+  display: flex;
+  border-radius: 20px;
+  justify-content: space-between;
+  background: hsla(317, 100%, 76%, 0.746);
+  margin: 0;
+  padding: 20px;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px pink;
+}
+
+.achievements__name {
+  font-size: 70px;
+  line-height: 95px;
+  margin: 0 0 20px 0;
+  font-family: "Roboto Slab", serif;
+  src: url(../../fonts/Nickainley-Normal.otf);
+  text-shadow: 1px 1px 20px rgb(248, 248, 248);
+  color: #ff2eaf;
+  font-style: italic;
+}
+
+.achievements__note {
+  font-size: 25px;
+  line-height: 35px;
+  color: #fff;
+  text-shadow: 1px 1px 2px pink;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+.achievements__script {
+  font-size: 20px;
+  line-height: 35px;
+  color: #fff;
+  text-shadow: 1px 1px 2px pink;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  font-style: italic;
+  text-shadow: 1px 1px 20px rgb(248, 248, 248);
+  color: #ff2eaf;
+}
+
+.table__first {
+  display: flex;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 400;
+  list-style-type: none;
+  text-align: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0 70px;
+  justify-content: space-between;
+}
+
+.table__one {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 310px;
+}
+
+.table__link {
+  background: hsla(0, 0%, 100%, 0.746);
+  border-radius: 12px;
+  padding: 15px;
+  color: #ff2eaf;
+  font-weight: 400;
+}
+
+.table__link:hover {
+  transform: scale(1.1);
+}
